@@ -78,7 +78,7 @@ if semaine == 'Mardi' :
     fly_bytes = fly.read()
     st.video(fly_bytes)
     st.write("e) Dips à la machine : 4 series avec 8 ou 12 répétitions")
-    dm = Image.open('dipsà la machine.jpg')
+    dm = Image.open('dips la machine.jpg')
     st.image('dm')
     dips = open('dips.mp4', 'rb')
     dips_bytes = dips.read()

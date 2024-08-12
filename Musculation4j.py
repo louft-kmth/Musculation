@@ -141,7 +141,7 @@ if semaine == 'Mercredi' :
     leg_bytes = leg.read()
     st.video(leg_bytes)
     st.write('alternative machine')
-     leg = open('legc.mp4', 'rb')
+    leg = open('legc.mp4', 'rb')
     leg_bytes = leg.read()
     st.video(leg_bytes)
     st.write("d) Soulevé de terre jambes tendues : 4 series de 8 ou 12 repétitions")

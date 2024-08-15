@@ -214,7 +214,7 @@ if semaine == 'Vendredi' :
     eph_bytes = eph.read()
     st.video(eph_bytes)
     st.write('alternative avec dual adjustable pulley ')
-    fly = open('pecto.mp4', 'rb')
+    fly = open('PECTO.mp4', 'rb')
     fly_bytes = fly.read()
     st.video(fly_bytes)
     st.write("c) Late pull down au sol : 4 séries de 10 répétitions")

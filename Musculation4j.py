@@ -114,7 +114,7 @@ if semaine == 'Mardi' :
     fly_bytes = fly.read()
     st.video(fly_bytes)
     st.write('alternative avec dual adjustable pulley avec les deux bras ')
-    fly = open('pecto.mp4', 'rb')
+    fly = open('PECTO.mp4', 'rb')
     fly_bytes = fly.read()
     st.video(fly_bytes)
     st.write("e) Dips à la machine : 4 series avec 8 ou 12 répétitions")

@@ -43,6 +43,7 @@ if semaine == 'Lundi' :
     st.write('alternative avec haltère')
     trapèzes = open('RH.mp4', 'rb')
     trp_bytes = trapèzes.read()
+    st.video(trpbr_bytes)
     st.write("d) Enroulement / deroulement des lombaires au bancs : 3 series avec 6 ou 10 répétitions ")
     enrouler = Image.open('extension-lombaire-au-banc.jpg')
     st.image(enrouler)
